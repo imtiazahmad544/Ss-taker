@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- External movies directory for recordings -->
+    <external-path
+        name="recordings"
+        path="Movies/FloatingScreenUtility/" />
+
+    <!-- External pictures directory for screenshots -->
+    <external-path
+        name="screenshots"
+        path="Pictures/FloatingScreenUtility/" />
+
+    <!-- External files dir (scoped storage) -->
+    <external-files-path
+        name="external_files"
+        path="." />
+
+    <!-- Cache dir for temp files -->
+    <cache-path
+        name="cache"
+        path="." />
+</paths>

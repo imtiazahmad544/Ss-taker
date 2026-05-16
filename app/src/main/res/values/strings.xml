@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Floating Screen Utility</string>
+
+    <!-- Permissions -->
+    <string name="permission_overlay_title">Display Over Other Apps</string>
+    <string name="permission_overlay_desc">Required for the floating recording controls</string>
+    <string name="permission_mic_title">Microphone Access</string>
+    <string name="permission_mic_desc">Optional: record audio with your screen capture</string>
+    <string name="permission_notification_title">Notifications</string>
+    <string name="permission_notification_desc">Required for foreground service while recording</string>
+
+    <!-- Notification channels -->
+    <string name="channel_recording_name">Screen Recording</string>
+    <string name="channel_recording_desc">Active screen recording notifications</string>
+    <string name="channel_screenshot_name">Screenshot</string>
+    <string name="channel_screenshot_desc">Screenshot capture notifications</string>
+    <string name="channel_floating_name">Floating Window</string>
+    <string name="channel_floating_desc">Floating overlay window service</string>
+
+    <!-- Notifications -->
+    <string name="notif_recording_title">Recording Screen</string>
+    <string name="notif_recording_text">Tap to open app • Swipe to stop</string>
+    <string name="notif_screenshot_saved">Screenshot saved</string>
+    <string name="notif_recording_saved">Recording saved</string>
+    <string name="notif_floating_title">Floating Screen Utility</string>
+    <string name="notif_floating_text">Floating controls active</string>
+
+    <!-- Actions -->
+    <string name="action_stop">Stop</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_open">Open</string>
+    <string name="action_share">Share</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_rename">Rename</string>
+
+    <!-- UI -->
+    <string name="label_recording">Recording</string>
+    <string name="label_screenshot">Screenshot</string>
+    <string name="label_history">History</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_start_recording">Start Recording</string>
+    <string name="label_stop_recording">Stop Recording</string>
+    <string name="label_take_screenshot">Take Screenshot</string>
+    <string name="label_show_floating">Show Floating Window</string>
+    <string name="label_hide_floating">Hide Floating Window</string>
+
+    <!-- Errors -->
+    <string name="error_permission_denied">Permission denied. Please grant all required permissions.</string>
+    <string name="error_projection_failed">Failed to start screen capture. Please try again.</string>
+    <string name="error_recording_failed">Recording failed. Check available storage.</string>
+    <string name="error_screenshot_failed">Screenshot failed. Please try again.</string>
+</resources>
